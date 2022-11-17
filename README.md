@@ -9,11 +9,10 @@ Membuat header table menggunakan **prettytable**. Variabel **import** berfungsi 
 2. `print("Program Input Data Mahasiswa")`
 **print()** untuk menampilkan kalimat yang di input.
 
-3. 
-```py 
-tabelNama = PrettyTable(["No" ,"Nama" ,"NIM" ,"Nilai Tugas" ,"Nilai UTS" ,"Nilai UAS" ,"Nilai Akhir" ])
-a = 0
-```
+3. ```py 
+  tabelNama = PrettyTable(["No" ,"Nama" ,"NIM" ,"Nilai, Tugas" ,"Nilai UTS" ,"Nilai UAS" ,"Nilai Akhir" ])
+  a = 0
+  ```
 (Deklarasi list)untuk menginput data yang dimasukkan kedalam list. input **tabelNama** untuk memanggil.
 sedangkan **PrettyTable** berfungsi untuk membungkus semua list.
 Deklarasi `*a = 0*` untuk membuat nomor pada isi table.
