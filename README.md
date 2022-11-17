@@ -4,7 +4,7 @@
 1. Membuat header table menggunakan *prettytable*. Variabel *import* berfungsi untuk memanggil file lain di dalam satu module yang berbeda.
  \\from prettytable import PrettyTable.
 
-2. > print("Program Input Data Mahasiswa")
+2. print("Program Input Data Mahasiswa")
 print()
 untuk menampilkan kalimat yang di input.
 
@@ -13,7 +13,7 @@ sedangkan *PrettyTable* berfungsi untuk membungkus semua list.
 Deklarasi *a = 0* untuk membuat nomor pada isi table.
 
 4. Membuat program perulangan menggunakan
- > while True:
+   while True:
 
 5. *a += 1* untuk menginput nomer pada awal table.
 deklarasi list dan Memasukkan Input Dengan Fungsi *input()* untuk menulis nama yang akan kita simpan dalam variabel.
@@ -27,10 +27,14 @@ deklarasi list dan Memasukkan Input Dengan Fungsi *input()* untuk menulis nama y
     f = int(input("Masukkan Nilai UAS :" ))
     g = "{:.2f}".format((d*.30) + (e*.35) + (f*.35))
 
-6. >     tabelNama.add_row([a,b,c,d,e,f,g])
-    tabelNama.horizontal_char = "="
-    tabelNama.junction_char = "="
+6. tabelNama.add_ro ([a,b,c,d,e,f,g])
+   tabelNama.horizontal_char = "="
+   tabelNama.junction_char = "="
 
 variabel di atas adalah untuk membentuk sebuah table.
 
 7. Program input tanya [y/t], apabila jawaban t atau T, maka program inputan dihentikan statement break dan akan menampilkan data yang sudah diinput.
+
+### Output
+Bila dijalankan maka program akan menghasilkan output seperti dibawah ini
+![img 2](image/2.png)
