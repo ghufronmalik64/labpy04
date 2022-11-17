@@ -19,6 +19,7 @@ Deklarasi *a = 0* untuk membuat nomor pada isi table.
 deklarasi list dan Memasukkan Input Dengan Fungsi *input()* untuk menulis nama yang akan kita simpan dalam variabel.
 *int(input())* untuk menginput tipe data interger ( bilangan bulat ) dalam variabel
 *"{:.2f}".format((d*.30) + (e*.35) + (f*.35))* untuk menginput *Nilai Akhir* yang di ambil dari perhitungan 3 komponen nilai.
+```py
     a += 1
     b = input("Masukkan Nama : ")
     c = input("Masukkan NIM : ")
@@ -27,12 +28,12 @@ deklarasi list dan Memasukkan Input Dengan Fungsi *input()* untuk menulis nama y
     f = int(input("Masukkan Nilai UAS :" ))
     g = "{:.2f}".format((d*.30) + (e*.35) + (f*.35))
 
-6.  `tabelNama.add_ro ([a,b,c,d,e,f,g])
+6.  tabelNama.add_ro ([a,b,c,d,e,f,g])
 
  ```python
-   `tabelNama.horizontal_char = "="
-   `tabelNama.junction_char = "="
-
+   tabelNama.horizontal_char = "="
+   tabelNama.junction_char = "="
+```
 variabel di atas adalah untuk membentuk sebuah table.
 
 7. Program input tanya [y/t], apabila jawaban t atau T, maka program inputan dihentikan statement break dan akan menampilkan data yang sudah diinput.
