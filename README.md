@@ -1,7 +1,7 @@
 ## Penjelasan
 
 ### Flowchart
-[img 0](image/3.png)
+1[img 0](image/3.png)
 
 Berikut adalah tampilan program menggunakan bahasa Python
 ![img 1](image/1.png)
