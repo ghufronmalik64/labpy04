@@ -1,4 +1,6 @@
 ## Penjelasan
+
+Berikut adalah tampilan program menggunakan bahasa Python
 ![img 1](image/1.png)
 
 1. ```from prettytable import PrettyTable```
@@ -12,8 +14,7 @@ sedangkan *PrettyTable* berfungsi untuk membungkus semua list.
 Deklarasi `*a = 0*` untuk membuat nomor pada isi table.
 
 4. Membuat program perulangan menggunakan
- ```py  while True:
- ```
+ ```py  while True: ```
 
 5. ```py
     a += 1
@@ -23,7 +24,7 @@ Deklarasi `*a = 0*` untuk membuat nomor pada isi table.
     e = int(input("Masukkan Nilai UTS : "))
     f = int(input("Masukkan Nilai UAS :" ))
     g = "{:.2f}".format((d*.30) + (e*.35) + (f*.35))
-```
+`
 *a += 1* untuk menginput nomer pada awal table.
 deklarasi list dan Memasukkan Input Dengan Fungsi `input()` untuk menulis nama yang akan kita simpan dalam variabel.
 `int(input())` untuk menginput tipe data interger ( bilangan bulat ) dalam variabel.
